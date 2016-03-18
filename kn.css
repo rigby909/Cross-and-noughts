@@ -1,0 +1,13 @@
+.field{
+	display: inline-block;
+	border: 2px solid purple;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	}
+.field-nought{
+	background-image:url('zero.JPG');
+	}
+.field-cross{
+	background-image:url('krest.JPG');
+	}
