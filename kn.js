@@ -42,10 +42,11 @@ $(function(){
 					} while(check(x,y));
 				}
 			)
-		};
 		if (sum-1 >= mapLength) {
 			alert('Выиграл: ' +(checkSight? 'x' : 'o'));
 			$('.field').off('click');
-		}	
+			$('.field').addClass('game-over');
+		}
+		}
 	});	
 });
